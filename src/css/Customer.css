@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Customer{
+    background-color: #e6e6e6;
+    height: 100vh;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header{
+    background-color: #ffffff;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    align-items: center;
+    box-shadow: 5px 5px 5px 0px rgb(117, 117, 117);
+}
+
+.logo{
+    color: #434343;
+    font-size: 1.5rem;
+    font-family: "Great Vibes", cursive;
+    font-weight: 800;
+     font-style: normal;
+     margin: 10px;
+}
+
+.box-price{
+    width: 150px;
+    height: 50px;
+    background-color: #242424;
+    border-radius: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.box-price p{
+   color: #ffffff;
+   font-size: 1.5rem;
+   font-family: "Prompt", sans-serif;
+   font-weight: 500;
+   font-style: normal;
+}
+
+.bx-money-withdraw{
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.name-type{
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.name-type p{
+    color: #242424;
+    font-size: 1.2rem;
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.con1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.con-product {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.slider-wrapper .images-list{
+    display: grid;
+    font-size: 0;
+    overflow-x: auto;
+    gap:18px;
+    grid-template-columns:  repeat(10, 1fr);
+}
+
+.slider-wrapper .images-list .image-item {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    box-shadow: 5px 0px 5px rgb(117, 117, 117);
+    border-radius: 20px;
+}
+
+
+
+
+
